@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from "axios";
 import { CreateNote } from "../store/modules/noteSlice";
 
 const api = axios.create({
-  baseURL: "http://localhost:4444",
+  baseURL: "https://guilhermeturek-api-notes.onrender.com",
 });
 
 export interface ApiResponse {
